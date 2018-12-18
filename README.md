@@ -25,5 +25,6 @@ Probably you have some required packages on your system already. "No" means that
 | Yes       | git          | Distributed version control system
 | Yes       | make         | Build utility
 | Yes       | libx11       | X11 client-side library
+| Yes       | libxinerama  | X11 Xinerama extension library
 | Yes       | libxft       | FreeType-based font drawing library for X
 | Yes/No    | fontconfig   | Library for configuring fonts, required for default build as it asks for your system `mono` font
