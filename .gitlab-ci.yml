@@ -1,6 +1,6 @@
 before_script:
   - apt-get update --yes --quiet
-  - apt-get install --yes --quiet libxft-dev libx11-dev fontconfig
+  - apt-get install --yes --quiet libxft-dev libx11-dev libxinerama-dev fontconfig
 
 after_script:
   - make clean
