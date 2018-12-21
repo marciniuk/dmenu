@@ -10,13 +10,13 @@ static const char *fonts[] = {
 static const char *prompt = NULL; // -p  option; prompt to the left of input field
 static const char *colors[SchemeLast][2] = {
 	//              foreground  background
-	[SchemeNorm] = { "#226ebf", "#0a0a30" },
-	[SchemeSel] =  { "#226ebf", "#10105b" },
-	[SchemeOut] =  { "#9b9cb5", "#0a0a30" },
+	[SchemeNorm] = { "#226ebf", "#090925" },
+	[SchemeSel] =  { "#226ebf", "#0b0b44" },
+	[SchemeOut] =  { "#9b9cb5", "#090925" },
 };
 
 // -l option; if nonzero, dmenu uses vertical list with given number of lines
-static unsigned int lines = 0;
+static unsigned int lines = 10;
 
 // -h option; minimum height of a menu line
 static unsigned int lineheight = 28;
