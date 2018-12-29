@@ -3,7 +3,7 @@
 This project is fork of [dmenu (dynamic menu)](https://tools.suckless.org/dmenu) with some additional features:
 * Line height patch that adds `-h` option, which sets the minimum height of a dmenu line. This helps integrate dmenu with other UI elements that require a particular vertical size.
 * Basic mouse support
-* Default [biual](https://gitlab.com/dawidpotocki/biual) colors.
+* Default [BlackArrow](https://gitlab.com/xXBlackMaskXx/blackarrow) colors.
 * Default font is system "`monospace`" at 15pt, meaning the font will match your system font.
 
 ## Installation
@@ -11,7 +11,7 @@ This project is fork of [dmenu (dynamic menu)](https://tools.suckless.org/dmenu)
 Make sure you have [dependencies](#dependencies) installed before you install dmenu.
 
 ```shell
-$ git clone https://gitlab.com/dawidpotocki/dmenu
+$ git clone https://gitlab.com/xXBlackMaskXx/dmenu
 $ cd dmenu
 $ sudo make clean install
 ```
