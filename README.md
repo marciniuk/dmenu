@@ -11,6 +11,7 @@ This project is fork of [dmenu (dynamic menu)](https://tools.suckless.org/dmenu)
 Make sure you have [dependencies](#dependencies) installed before you install dmenu.
 
 ```shell
+$ cd ~/.config
 $ git clone https://gitlab.com/xXBlackMaskXx/dmenu
 $ cd dmenu
 $ sudo make clean install
